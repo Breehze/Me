@@ -37,7 +37,7 @@ const backgroundImageStyle = computed(() => {
 </script>
 
 <template>       
-        <div @mouseenter = "onHover" @mouseleave = "onLeave" :class = hoveredClass  class="transition-all duration-500 ease-in-out relative  bg-black border-black border-2  h-5/6  w-80 text-white m-5 snap-center">
+        <div @click = "onHover" @mouseenter = "onHover" @mouseleave = "onLeave" :class = hoveredClass  class="transition-all duration-500 ease-in-out relative  bg-black border-black border-2  h-5/6  w-80 text-white m-5 snap-center">
             <div :style = "backgroundImageStyle" :class = "{ 'opacity-25'  : hoveredImg}"  class="bg-no-repeat bg-cover w-full h-full"></div>
             
             <div class="absolute top-1 mt-5 text-2xl m-5 w-40 sm:text-4xl">
