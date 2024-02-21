@@ -40,11 +40,11 @@ const backgroundImageStyle = computed(() => {
         <div @mouseenter = "onHover" @mouseleave = "onLeave" :class = hoveredClass  class="transition-all duration-500 ease-in-out relative  bg-black border-black border-2  h-5/6  w-80 text-white m-5 snap-center">
             <div :style = "backgroundImageStyle" :class = "{ 'opacity-25'  : hoveredImg}"  class="bg-no-repeat bg-cover w-full h-full"></div>
             
-            <div class="absolute top-1 mt-5 text-2xl m-5 w-40">
+            <div class="absolute top-1 mt-5 text-2xl m-5 w-40 sm:text-4xl">
                 <h1 class="">{{ props.title }}</h1>
             </div>    
             
-            <div v-if="showText" class="absolute top-6 right-0 w-48 ">
+            <div v-if="showText" class="absolute top-6 right-0 w-48 sm:w-80 ">
                 <slot name = "career"></slot>
             </div>
             
@@ -62,7 +62,7 @@ const backgroundImageStyle = computed(() => {
             
             
             
-            <div v-if="showText" class="transition-all duration-1000 animate-fade-right ease-in-out absolute -bottom-0 right-1 w-4/5 m-9">
+            <div v-if="showText" class="transition-all duration-1000 animate-fade-right ease-in-out absolute -bottom-0 right-1 w-4/5 m-9 sm:text-xl">
                 <h1  class="">{{ props.shortContent }}</h1>
             </div>
             
