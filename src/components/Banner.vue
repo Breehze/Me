@@ -44,7 +44,7 @@ const backgroundImageStyle = computed(() => {
                 <h1 class="">{{ props.title }}</h1>
             </div>    
             
-            <div v-if="showText" class="absolute top-6 right-0 w-48 sm:w-80 ">
+            <div v-if="showText" class="absolute top-32  left-0 ml-5 w-48 sm:w-80 ">
                 <slot name = "career"></slot>
             </div>
             
