@@ -53,7 +53,7 @@ const callback = (inp) => {activeProject.value = inp}
               <EntrySkill skill-set-title="Another" :skill-list = "skillSet3"  ></EntrySkill>
             </template>
           </Banner>
-          <Banner short-content="Hey, as you may have seen my name is Boris. I am currently 20 years young. I've been interested in software since the times i can remember. As of right now the most of my free time is distributed between cars, video games and coding. " title="About me"></Banner>-->
+          <Banner short-content="Hey, as you may have seen my name is Boris. I am currently 20 years young. I've been interested in software since the times i can remember. As of right now the most of my free time is distributed between cars, video games and coding. " title="About me"></Banner>
     
         </div>
       </div>
