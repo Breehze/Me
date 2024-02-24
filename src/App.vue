@@ -32,7 +32,7 @@ const callback = (inp) => {activeProject.value = inp}
         <div class=" w-11/12  grid grid-flow-col overflow-x-auto snap-x snap-mandatory h-screen place-items-center  sm:flex sm:justify-center sm:w-full">
           <Banner short-content="" title="Career & Education" bg-path="career.webp">
             <template #career> 
-              <Entry org-link="https://playcyberverse.com" img-path="cc1.png" year-range="2021-present" content="Worked on developing off-chain bots to integrate blockchain into the world of CyberVerse." title="CyberVerse"></Entry>
+              <Entry org-link="https://playcyberverse.com" img-path="cc1.png" year-range="2021-2023" content="Worked on developing off-chain bots to integrate blockchain into the world of CyberVerse." title="CyberVerse"></Entry>
               <Entry org-link="https://www.nay.sk" img-path="nay.png" year-range="2022-2023" title="NAY.sk" content="Part-time job where i worked as a salesman while sharpening my skills in field of Software Engineering"></Entry>
               <Entry org-link="https://www.fiit.stuba.sk" img-path="fiit.png" year-range="2023-2024" title="STU FIIT" content="Managed to pass an entry exam, then dropped out due to issues with professors. I absolutely aced procedural programming though."></Entry>
               <Entry org-link="https://www.sos-it.sk" img-path="sosit.png" year-range="2019-2023" title="SOS IT" content="High school where I acquired CCNA1,CCNA2 and CEFR C1 in english. "></Entry>
