@@ -5,7 +5,7 @@ const props = defineProps(['yearRange','title','content','imgPath','orgLink'])
 
 
 <template>
-<div class=" flex  mb-3 animate-fade-right"> 
+<div class=" flex  mb-3 animate-fade-left"> 
     <div class="relative bg-white w-1/3 h-full">
         <div :style = "{backgroundImage : `url(${props.imgPath})` }"  class=" bg-center bg-contain bg-no-repeat w-10 h-10   absolute -top-2 right-2 sm:w-20 sm:h-20"></div>
     </div>    
