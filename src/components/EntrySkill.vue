@@ -8,7 +8,7 @@ const props = defineProps(['skillSetTitle','skillList'])
 
 <template>
     
-    <div class=" w-40 animate-fade-left sm:w-72">
+    <div class=" w-40 animate-fade-left xl:w-72">
         <h1 class="text-white border-b-2 border-white  border-solid "> {{ props.skillSetTitle }} </h1>
         <div class="flex flex-wrap"> 
             <div v-for=" skill in skillList" class="flex mt-2 mr-2">
