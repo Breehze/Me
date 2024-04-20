@@ -58,6 +58,6 @@ const callback = (inp) => {activeProject.value = inp}
     
         </div>
 
-      <div class=" text-slate-700 opacity-75">!This is spaghetti code, DO NOT LOOK AT THE REPO!</div>
+        <div class=" text-slate-700 opacity-75 text-xs">!This is spaghetti code, DO NOT LOOK AT THE REPO!</div>
       </div>
 </template>
