@@ -28,7 +28,7 @@ const callback = (inp) => {activeProject.value = inp}
 
 
 <template>
-    <div class="relative flex flex-col justify-center items-center bg-opacity-95 h-screen w-full font-Inconsolata bg-[url(/bg.svg)] bg-cover">
+    <div class="relative flex flex-col justify-center items-center bg-opacity-95 h-screen w-full font-Inconsolata bg-black bg-opacity-95 bg-cover">
       <Navbar></Navbar>
         <div class=" w-11/12  grid grid-flow-col overflow-x-auto snap-x snap-mandatory h-screen place-items-center  sm:flex sm:justify-center sm:w-full">
           <Banner short-content="" title="Career & Education" bg-path="career.webp">
