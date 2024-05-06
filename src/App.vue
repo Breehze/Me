@@ -20,7 +20,7 @@ const activeProject = ref(1)
 const projects = ref({ 1 : { prName : "SanctumChat", prPremise : "Paying 10€ for discord Nitro to have gif pfp is kinda meh, so i made my own budget discord." , prGoal : "Apply my knowledge of FastAPI framework, experiment with WebSockets and basic JWT based Auth", prTechStack : [{name : "Vue", img : "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png"},{name : "Tailwind", img : "tw.png"},{name : "FastAPI", img : "https://www.itnetwork.sk/images/112150/fastapi/fastapi-1.svg"},{name : "MongoDB", img : "mon.png"}]},
   2 : { prName : "Portfolio page", prPremise : "-__-" , prGoal : "Get back into Vue and Tailwind", prTechStack : [{name : "Vue", img : "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png"},{name : "Tailwind", img : "tw.png"}]},
   3 :  { prName : "Auth Server", prPremise : "Implementing auth logic every single time you start a new project is quite annoying, so i made something that is reusable. " , prGoal : "Implement authorization code flow using FastAPI. ", prTechStack : [{name : "FastAPI", img : "https://www.itnetwork.sk/images/112150/fastapi/fastapi-1.svg"},{name : "MongoDB", img : "mon.png"}]},
- 4: {prName: "IO Collabs", prPremise : "Deimos team couldn't pull this off, and they have titles xD. My take on (See goal)", prGoal : "Try out untrusted server side code execution (Feel free to mess with it).", prTechStack :[{name : "FastAPI",img : "https://www.itnetwork.sk/images/112150/fastapi/fastapi-1.svg"},{name : "Docker", img:"https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png"}]}
+ 4: {prName: "IO Collabs", prPremise : "Idk, just messing around.", prGoal : "Try out untrusted server side code execution (Feel free to mess with it).", prTechStack :[{name : "FastAPI",img : "https://www.itnetwork.sk/images/112150/fastapi/fastapi-1.svg"},{name : "Docker", img:"https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png"}]}
 })
 
 const callback = (inp) => {activeProject.value = inp}
@@ -54,7 +54,7 @@ const callback = (inp) => {activeProject.value = inp}
               <EntrySkill skill-set-title="Another" :skill-list = "skillSet3"  ></EntrySkill>
             </template>
           </Banner>
-          <Banner bg-path="me.png" short-content="Hey, as you may have seen my name is Boris. I am currently 20 years young. I've been interested in software since the times i can remember. As of right now the most of my free time is distributed between cars, video games and coding. " title="About me"></Banner>
+          <Banner bg-path="me.png" short-content="Hey, as you may have seen my name is Boris. I am currently 20 years young. I've been interested in software since high school. As of right now the most of my free time is distributed between cars, video games and coding. " title="About me"></Banner>
     
         </div>
 
